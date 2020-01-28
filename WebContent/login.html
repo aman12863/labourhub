@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<link rel="stylesheet" href="login.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+	<div class="testbox">
+		<h1>Login</h1>
+
+		<form action="Login" method="post">
+			<hr>
+			<div class="accounttype">
+				<input type="radio" value="job" id="radioOne" name="job"
+					checked /> <label for="radioOne" class="radio" chec>Job</label> <input
+					type="radio" value="hire" id="radioTwo" name="job" /> <label
+					for="radioTwo" class="radio">Hire</label>
+			</div>
+			<hr>
+			<label id="icon" for="name"><i class="fa fa-envelope"
+				aria-hidden="true"></i> </i></label> <input type="email" name="email" id="name"
+				placeholder="Email" required /> <label id="icon" for="name"><i
+				class="fa fa-unlock-alt" aria-hidden="true"></i></i></label> <input
+				type="password" name="pass" id="name" placeholder="Password"
+				required /> <input type="submit" class="submit" value="Login">
+		</form>
+	</div>
+</body>
+</html>
